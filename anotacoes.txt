@@ -1,4 +1,7 @@
 # php-014-sofn-mvc
 
 # Anotações:
-- ...
+- Rodar:
+    php -S localhost:1337 -t public
+- Composer e autoload.
+    composer install

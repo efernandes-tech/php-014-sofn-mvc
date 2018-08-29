@@ -8,5 +8,11 @@
             "name": "Ederson Fernandes",
             "email": "edersonluis.rf@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Config\\": "Config/",
+            "App\\": "App/"
+        }
+    }
 }
