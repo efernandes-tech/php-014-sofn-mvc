@@ -6,4 +6,4 @@ use App\Route;
 
 $route = new Route();
 
-echo $route->getUrl();
+// echo $route->getUrl();
