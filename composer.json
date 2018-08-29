@@ -1,0 +1,12 @@
+{
+    "name": "php-014-sofn-mvc",
+    "require": {
+        "php": ">=5.6"
+    },
+    "authors": [
+        {
+            "name": "Ederson Fernandes",
+            "email": "edersonluis.rf@gmail.com"
+        }
+    ]
+}
