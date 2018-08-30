@@ -2,15 +2,14 @@
 
 namespace App\Controllers;
 
-use App\Conn;
-use App\Models\Client;
 use System\Controller\Action;
+use System\DI\Container;
 
 class IndexController extends Action
 {
     public function index()
     {
-        $client = new Client(Conn::getDb());
+        $client = Container::getModel("Client");
 
         $this->view->clients = $client->fetchAll();
 
