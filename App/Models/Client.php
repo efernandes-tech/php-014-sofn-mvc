@@ -2,9 +2,10 @@
 
 namespace App\Models;
 
-use System\Model\Table;
+use System\MVC\Model;
 
-class Client extends Table
+class Client extends Model
 {
     protected $table = "clients";
+    protected $pk = "id";
 }

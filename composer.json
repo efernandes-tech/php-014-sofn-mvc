@@ -11,8 +11,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "System\\": "System/",
-            "App\\": "App/"
+            "System\\": "system/",
+            "App\\": "app/"
         }
     }
 }
